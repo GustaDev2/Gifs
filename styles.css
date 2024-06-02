@@ -1,0 +1,62 @@
+/* Estiliza o corpo da pagina */
+
+body{
+    font-family: Arial, Helvetica, sans-serif ;  
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+/* Estiliza o cabeçalho */
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Estiliza o titulo principal */
+header h1 {
+    margin: 0;
+}
+/* Estilização a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Estilizar o conteudo principal */
+main {
+    padding: 20px;
+}
+/* Estilizar Os titulos nas seções */
+section h2 {
+    color: rgb(255, 2, 36)
+}
+/* Estiliza os paragrafos */
+section p {
+    line-height: 1.6;
+}
+/* Estilizar o rodapé */
+footer {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
